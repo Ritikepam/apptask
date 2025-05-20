@@ -19,7 +19,7 @@ tags = {
 
 app_service_plans = {
   asp1 = {
-    name         = " cmaz-9m9bm0bv-mod5-asp-01"
+    name         = "cmaz-9m9bm0bv-mod5-asp-01"
     sku          = "P0v3"
     worker_count = 2
     os_type      = "Windows"
@@ -36,7 +36,7 @@ app_service_plans = {
 
 app_services = {
   app1 = {
-    name    = " cmaz-9m9bm0bv-mod5-app-01"
+    name    = "cmaz-9m9bm0bv-mod5-app-01"
     rg_key  = "rg1"
     asp_key = "asp1"
   },
